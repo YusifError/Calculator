@@ -1,0 +1,60 @@
+body {
+    background-image: linear-gradient(#000000, #2d388a);
+    user-select: none;
+    margin: 0%;
+    overflow: hidden;
+    overflow-x: hidden;
+}
+
+p {
+    text-align: right;
+    word-break: break-all;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 88%;
+    padding: 3vh 8% 0 4%;
+}
+
+button {
+    width: 20%;
+    margin: 2%;
+    float: left;
+    font-size: 7vh;
+    background-color: rgba(0, 0, 0, 0);
+    color: #ffffff;
+    border-radius: none;
+    outline: none;
+    padding: 2vh 0;
+}
+
+#input {
+    height: 12hv;
+    font-size: 10vh;
+    color: #ffffff;
+}
+
+#output {
+    height: 4vh;
+    font-size: 8vh;
+    color: #a1e6ff;
+}
+
+#btn-block {
+    margin-left: 3%;
+}
+
+button:active {
+    background-color: rgb(135, 129, 129);
+}
+
+.char {
+    color: #e66a31;
+}
+
+.equal {
+    background-color: #e66a31;
+    border-radius: 50%;
+}
+
+.clear {
+    color: #e66a31;
+}
